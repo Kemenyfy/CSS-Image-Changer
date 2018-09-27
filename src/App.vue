@@ -3,62 +3,74 @@
     <ul class="list">
             <li>
               <div class="text">
-                <p>Programming Languages</p>
+                <h2>Programming Languages</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Front-End Techs</p>
+                <h2>Front-End Techs</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Back-End Techs</p>
+                <h2>Back-End Techs</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Books</p>
+                <h2>Books</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Design</p>
+                <h2>Design</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Browsers</p>
+                <h2>Browsers</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Hosting</p>  
+                <h2>Hosting</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Coding Classes</p>
+                <h2>Coding Classes</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>News</p>
+                <h2>News</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Podcasts</p>
+                <h2>Podcasts</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Collaboration</p>
+                <h2>Collaboration</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
             <li>
               <div class="text">
-                <p>Meetups</p>
+                <h2>Meetups</h2>
+                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
         </ul>
@@ -70,22 +82,37 @@
 </script>
 
 <style>
+
+.content {
+  position: relative;
+}
+
 .list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  /* width: 100%; */
   height: 60vh;
-  margin: 2em;
+  /* height: 100%; */
+  /* background: #ccc; */
+  /* padding-left: 0; */
+  margin: 1em;
+  /* margin-left: 1em; */
   padding: 0;
 }
 
 .list li {
   list-style: none;
   position: relative;
-  width: 30%;
-  height: 30%;
+  width: 8.33%;
+  height: 100%;
+  /* border-right: 1px solid #000; */
+  float: left;
+  box-sizing: border-box;
+  transition: 0.5s;
   text-align: center;
-  margin: 10px;
+  overflow: hidden;
 }
 
 .list li:nth-child(1) {
@@ -160,6 +187,15 @@
   background-position: left;
 }
 
+.list:hover li {
+    width: 3%;
+  }
+
+.list li:hover {
+  width: 67%;
+}
+
+
 .list li .text {
   position: absolute;
   bottom: 0;
@@ -173,9 +209,8 @@
 
 .list li:hover .text {
   transition: 0.5s;
-  transition-delay: 0.2s;
+  transition-delay: 0.5s;
   opacity: 1;
 }
+
 </style>
-
-
