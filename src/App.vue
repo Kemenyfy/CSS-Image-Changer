@@ -65,7 +65,7 @@
 }
 
 .list li:nth-child(1) {
-  background: url(./assets/ProgrammingLanguages.jpg);
+  background: url(./assets/News.jpeg);
   background-size: cover;
   background-position: left;
 }
@@ -83,55 +83,13 @@
 }
 
 .list li:nth-child(4) {
-  background: url(./assets/Books.jpg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(5) {
   background: url(./assets/Design.jpg);
   background-size: cover;
   background-position: left;
 }
 
-.list li:nth-child(6) {
-  background: url(./assets/Browsers.png);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(7) {
-  background: url(./assets/Hosting.jpeg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(8) {
-  background: url(./assets/Schools.jpg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(9) {
-  background: url(./assets/News.jpeg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(10) {
-  background: url(./assets/Podcasts.jpeg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(11) {
+.list li:nth-child(5) {
   background: url(./assets/Collaboration.jpeg);
-  background-size: cover;
-  background-position: left;
-}
-
-.list li:nth-child(12) {
-  background: url(./assets/Meetups.png);
   background-size: cover;
   background-position: left;
 }
