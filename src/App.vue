@@ -31,48 +31,6 @@
                 <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
               </div>
             </li>
-            <li>
-              <div class="text">
-                <h2>Browsers</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>Hosting</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>Coding Classes</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>News</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>Podcasts</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>Collaboration</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
-            <li>
-              <div class="text">
-                <h2>Meetups</h2>
-                <p>Lorem Ipsum is a type of character crazy amount of text don't understand nothing</p>
-              </div>
-            </li>
         </ul>
   </div>
 </template>
@@ -83,29 +41,20 @@
 
 <style>
 
-.content {
-  position: relative;
-}
-
 .list {
   position: relative;
   top: 0;
   left: 0;
-  width: 100vh;
-  /* width: 100%; */
-  height: 60vh;
-  /* height: 100%; */
-  /* background: #ccc; */
-  /* padding-left: 0; */
-  margin: 1em;
-  /* margin-left: 1em; */
+  width: 100%;
+  height: 100vh;
   padding: 0;
+  margin: 0;
 }
 
 .list li {
   list-style: none;
   position: relative;
-  width: 8.33%;
+  width: 20%;
   height: 100%;
   /* border-right: 1px solid #000; */
   float: left;
@@ -188,13 +137,12 @@
 }
 
 .list:hover li {
-    width: 3%;
+    width: 10%;
   }
 
 .list li:hover {
-  width: 67%;
+  width: 60%;
 }
-
 
 .list li .text {
   position: absolute;
