@@ -65,25 +65,117 @@
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+
+</script>
+
+<style>
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 60vh;
+  margin: 2em;
+  padding: 0;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.list li {
+  list-style: none;
+  position: relative;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  margin: 10px;
+}
+
+.list li:nth-child(1) {
+  background: url(./assets/ProgrammingLanguages.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(2) {
+  background: url(https://picsum.photos/1000/600?image=1061);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(3) {
+  background: url(https://picsum.photos/1000/600?image=1062);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(4) {
+  background: url(./assets/Books.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(5) {
+  background: url(./assets/Design.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(6) {
+  background: url(./assets/Browsers.png);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(7) {
+  background: url(./assets/Hosting.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(8) {
+  background: url(./assets/Schools.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(9) {
+  background: url(./assets/News.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(10) {
+  background: url(./assets/Podcasts.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(11) {
+  background: url(./assets/Collaboration.jpeg);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li:nth-child(12) {
+  background: url(./assets/Meetups.png);
+  background-size: cover;
+  background-position: left;
+}
+
+.list li .text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  color: #fff;
+  opacity: 0;
+}
+
+.list li:hover .text {
+  transition: 0.5s;
+  transition-delay: 0.2s;
+  opacity: 1;
 }
 </style>
-
 
 
